@@ -1,0 +1,22 @@
+# CryptoGraphy — Python dependencies
+#
+# Install with:  pip install -r requirements.txt
+#
+# ─────────────────────────────────────────────────────────────────────────────
+
+# ── GUI ───────────────────────────────────────────────────────────────────────
+PyQt6>=6.6.0
+
+# ── Cryptography (provides Fernet, AES-256-GCM, PBKDF2-HMAC-SHA256) ──────────
+cryptography==46.0.0
+
+# ── Windows only (optional) ───────────────────────────────────────────────────
+# pywin32 enables correct handling of Windows hidden file attributes.
+# The app works fully without it on all platforms.
+# Uncomment the line below to install it on Windows:
+# pywin32>=306
+
+# ── Already in Python stdlib (listed for reference, do NOT install) ───────────
+# os, sys, stat, json, uuid, base64, random, string
+# hashlib, logging, platform, pathlib, typing
+# dataclasses, abc, enum, datetime, re
