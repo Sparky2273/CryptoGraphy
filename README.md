@@ -140,7 +140,7 @@ No Python needed.
 Download `CryptoGraphy_V1.py` from this repository, or clone:
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/CryptoGraphy.git
+git clone https://github.com/Sparky2273/CryptoGraphy.git
 cd CryptoGraphy
 ```
 
